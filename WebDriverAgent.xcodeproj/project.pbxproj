@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1B2C3D41F001A00A1B0004 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B2C3D41F001A00A1B0005 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002; };
-		A1B2C3D41F001A00A1B0006 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B2C3D41F001A00A1B0007 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002; };
-		A1B2C3D41F001A00A1B0008 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0003; };
 		05F044DB8F64CD3445C4F330 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D4F57810944710ABBCD62 /* Config.swift */; };
 		0B094DDCAF631ECA08FC6A4A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E34333B40FD676957C31A7 /* libc++.tbd */; };
 		0DFA49DFBAB3C0801DD5C960 /* BotLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B314BB9B27D8EF38C6976E7 /* BotLoop.swift */; };
@@ -326,6 +321,7 @@
 		64B2650B228CE4FF002A5025 /* FBTVNavigationTracker-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B26509228CE4FF002A5025 /* FBTVNavigationTracker-Private.h */; };
 		64E3502E2AC0B6EB005F3ACB /* NSDictionary+FBUtf8SafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F0DA02A16CA1000CDD977 /* NSDictionary+FBUtf8SafeDictionary.m */; };
 		64E3502F2AC0B6FE005F3ACB /* NSDictionary+FBUtf8SafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 716F0D9F2A16CA1000CDD977 /* NSDictionary+FBUtf8SafeDictionary.h */; };
+		6D454EE1BB2957B642E5EE13 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066649EFB318B0B3379A7A33 /* Notifier.swift */; };
 		711084441DA3AA7500F913D6 /* FBXPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 711084421DA3AA7500F913D6 /* FBXPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		711084451DA3AA7500F913D6 /* FBXPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 711084431DA3AA7500F913D6 /* FBXPath.m */; };
 		7119097C2152580600BA3C7E /* XCUIScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 7119097B2152580600BA3C7E /* XCUIScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -550,6 +546,11 @@
 		81FE465F8C5641E828703A1C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA34485813328771ACC153F /* opencv2.framework */; };
 		9A654894A83C8ABE930AD335 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B308426C9A606D7BAB3732AD /* libz.tbd */; };
 		9B4E4A61805EE6FD5BFDE6FE /* TowerBotRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C74A4E8C2C195FEDE0100D /* TowerBotRunner.swift */; };
+		A1B2C3D41F001A00A1B0004 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B2C3D41F001A00A1B0005 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002; };
+		A1B2C3D41F001A00A1B0006 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B2C3D41F001A00A1B0007 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002; };
+		A1B2C3D41F001A00A1B0008 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0003; };
 		A1B2C3D4E5F600000000001B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000001A /* Assets.xcassets */; };
 		AABBCCDDEEFF001122334457 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBCCDDEEFF001122334456 /* SceneDelegate.m */; };
 		AD35D06C1CF1C35500870A75 /* WebDriverAgentLib.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = EE158A991CBD452B00A3E3F0 /* WebDriverAgentLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -951,10 +952,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A1B2C3D41F001A00A1B0001 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBVoiceOver.h"; sourceTree = "<group>"; };
-		A1B2C3D41F001A00A1B0002 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBVoiceOver.m"; sourceTree = "<group>"; };
-		A1B2C3D41F001A00A1B0003 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBVoiceOverTests.m; sourceTree = "<group>"; };
 		018042CBB5D8D61BC4A53034 /* templates */ = {isa = PBXFileReference; lastKnownFileType = text; name = templates; path = ../../templates; sourceTree = SOURCE_ROOT; };
+		066649EFB318B0B3379A7A33 /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Notifier.swift; path = ../TowerBot/Core/Notifier.swift; sourceTree = SOURCE_ROOT; };
 		0E0413372DF1E15100AF007C /* XCUIElement+FBMinMax.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBMinMax.m"; sourceTree = "<group>"; };
 		0E04133A2DF1E15900AF007C /* XCUIElement+FBMinMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBMinMax.h"; sourceTree = "<group>"; };
 		111744BC8A16B1D7D8C1FACD /* Safety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Safety.swift; path = ../TowerBot/Core/Safety.swift; sourceTree = SOURCE_ROOT; };
@@ -1151,6 +1150,9 @@
 		71F5BE4D252F14EB00EE9EBA /* FBExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBExceptions.h; sourceTree = "<group>"; };
 		71F5BE4E252F14EB00EE9EBA /* FBExceptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBExceptions.m; sourceTree = "<group>"; };
 		85B54CBDB400E79E845A8FA0 /* Config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Config.json; path = ../TowerBot/Resources/Config.json; sourceTree = SOURCE_ROOT; };
+		A1B2C3D41F001A00A1B0001 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBVoiceOver.h"; sourceTree = "<group>"; };
+		A1B2C3D41F001A00A1B0002 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBVoiceOver.m"; sourceTree = "<group>"; };
+		A1B2C3D41F001A00A1B0003 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBVoiceOverTests.m; sourceTree = "<group>"; };
 		A1B2C3D4E5F600000000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WebDriverAgentRunner/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		A32B4F1D866C1961E0D9AD60 /* CVBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CVBridge.mm; path = ../TowerBot/CV/CVBridge.mm; sourceTree = SOURCE_ROOT; };
 		AABBCCDDEEFF001122334455 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -1557,6 +1559,7 @@
 				018042CBB5D8D61BC4A53034 /* templates */,
 				BCA34485813328771ACC153F /* opencv2.framework */,
 				A32B4F1D866C1961E0D9AD60 /* CVBridge.mm */,
+				066649EFB318B0B3379A7A33 /* Notifier.swift */,
 			);
 			name = TowerBot;
 			sourceTree = "<group>";
@@ -3029,6 +3032,7 @@
 				EEF988271C486603005CA669 /* Frameworks */,
 				EEF988281C486603005CA669 /* Resources */,
 				EE93CFF41CCA501300708122 /* Copy frameworks */,
+				2DED4B7391642D1EDA1B09A5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -3125,6 +3129,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DED4B7391642D1EDA1B09A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# TowerBot: bundle Telegram token if present (gitignored; absent -> headless mode)\nTOKEN=\"$SRCROOT/../../telegram_token_ios.txt\"\nDEST=\"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"\nif [ -f \"$TOKEN\" ]; then\n  mkdir -p \"$DEST\"\n  cp -f \"$TOKEN\" \"$DEST/\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		641EE2D62240BBE300173FCB /* Sources */ = {
@@ -3532,6 +3553,7 @@
 				0DFA49DFBAB3C0801DD5C960 /* BotLoop.swift in Sources */,
 				9B4E4A61805EE6FD5BFDE6FE /* TowerBotRunner.swift in Sources */,
 				3CD0406A94E1DCBB5FE6DBFA /* CVBridge.mm in Sources */,
+				6D454EE1BB2957B642E5EE13 /* Notifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4376,6 +4398,7 @@
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					../vendor,
@@ -4438,6 +4461,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					../vendor,
