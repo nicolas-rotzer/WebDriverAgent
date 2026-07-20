@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1B2C3D41F001A00A1B0004 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B2C3D41F001A00A1B0005 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002; };
+		A1B2C3D41F001A00A1B0006 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B2C3D41F001A00A1B0007 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002; };
+		A1B2C3D41F001A00A1B0008 = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0003; };
+		05F044DB8F64CD3445C4F330 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D4F57810944710ABBCD62 /* Config.swift */; };
+		0B094DDCAF631ECA08FC6A4A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E34333B40FD676957C31A7 /* libc++.tbd */; };
+		0DFA49DFBAB3C0801DD5C960 /* BotLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B314BB9B27D8EF38C6976E7 /* BotLoop.swift */; };
 		0E0413382DF1E15100AF007C /* XCUIElement+FBMinMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0413372DF1E15100AF007C /* XCUIElement+FBMinMax.m */; };
 		0E0413392DF1E15100AF007C /* XCUIElement+FBMinMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0413372DF1E15100AF007C /* XCUIElement+FBMinMax.m */; };
 		0E04133B2DF1E15900AF007C /* XCUIElement+FBMinMax.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E04133A2DF1E15900AF007C /* XCUIElement+FBMinMax.h */; };
@@ -41,6 +49,10 @@
 		315A15012518CB8700A3A064 /* TouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315A15002518CB8700A3A064 /* TouchableView.m */; };
 		315A15072518CC2800A3A064 /* TouchSpotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315A15062518CC2800A3A064 /* TouchSpotView.m */; };
 		315A150A2518D6F400A3A064 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315A15092518D6F400A3A064 /* TouchViewController.m */; };
+		3CD0406A94E1DCBB5FE6DBFA /* CVBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = A32B4F1D866C1961E0D9AD60 /* CVBridge.mm */; settings = {COMPILER_FLAGS = "-w"; }; };
+		5A02419486AB3651EDE096C6 /* Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111744BC8A16B1D7D8C1FACD /* Safety.swift */; };
+		5DAB4063938191E4F762CA8A /* Config.json in Resources */ = {isa = PBXBuildFile; fileRef = 85B54CBDB400E79E845A8FA0 /* Config.json */; };
+		5EA74CC784A9563681B97653 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9E4BE7959E4B440E0E807E /* Accelerate.framework */; };
 		6385F4A7220A40760095BBDB /* XCUIApplicationProcessDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6385F4A5220A40760095BBDB /* XCUIApplicationProcessDelay.m */; };
 		63CCF91221ECE4C700E94ABD /* FBImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CCF91021ECE4C700E94ABD /* FBImageProcessor.h */; };
 		63CCF91321ECE4C700E94ABD /* FBImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CCF91121ECE4C700E94ABD /* FBImageProcessor.m */; };
@@ -535,11 +547,9 @@
 		71F5BE50252F14EB00EE9EBA /* FBExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F5BE4D252F14EB00EE9EBA /* FBExceptions.h */; };
 		71F5BE51252F14EB00EE9EBA /* FBExceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F5BE4E252F14EB00EE9EBA /* FBExceptions.m */; };
 		71F5BE52252F14EB00EE9EBA /* FBExceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F5BE4E252F14EB00EE9EBA /* FBExceptions.m */; };
-		A1B2C3D41F001A00A1B0004 /* XCUIDevice+FBVoiceOver.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001 /* XCUIDevice+FBVoiceOver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B2C3D41F001A00A1B0005 /* XCUIDevice+FBVoiceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002 /* XCUIDevice+FBVoiceOver.m */; };
-		A1B2C3D41F001A00A1B0006 /* XCUIDevice+FBVoiceOver.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0001 /* XCUIDevice+FBVoiceOver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B2C3D41F001A00A1B0007 /* XCUIDevice+FBVoiceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0002 /* XCUIDevice+FBVoiceOver.m */; };
-		A1B2C3D41F001A00A1B0008 /* FBVoiceOverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D41F001A00A1B0003 /* FBVoiceOverTests.m */; };
+		81FE465F8C5641E828703A1C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA34485813328771ACC153F /* opencv2.framework */; };
+		9A654894A83C8ABE930AD335 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B308426C9A606D7BAB3732AD /* libz.tbd */; };
+		9B4E4A61805EE6FD5BFDE6FE /* TowerBotRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C74A4E8C2C195FEDE0100D /* TowerBotRunner.swift */; };
 		A1B2C3D4E5F600000000001B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000001A /* Assets.xcassets */; };
 		AABBCCDDEEFF001122334457 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBCCDDEEFF001122334456 /* SceneDelegate.m */; };
 		AD35D06C1CF1C35500870A75 /* WebDriverAgentLib.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = EE158A991CBD452B00A3E3F0 /* WebDriverAgentLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -838,6 +848,8 @@
 		F59CD6D52EF16E5E00F91287 /* XCUIElement+FBCustomActions.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CD6D32EF16E5E00F91287 /* XCUIElement+FBCustomActions.m */; };
 		F59CD6D62EF16E5E00F91287 /* XCUIElement+FBCustomActions.h in Headers */ = {isa = PBXBuildFile; fileRef = F59CD6D22EF16E5E00F91287 /* XCUIElement+FBCustomActions.h */; };
 		F59CD6D72EF16E5E00F91287 /* XCUIElement+FBCustomActions.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CD6D32EF16E5E00F91287 /* XCUIElement+FBCustomActions.m */; };
+		FE0F4C6D96A72E048EAE47FE /* templates in Resources */ = {isa = PBXBuildFile; fileRef = 018042CBB5D8D61BC4A53034 /* templates */; };
+		FF134A548F1B918372AC18A2 /* StateClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB984E29B22DD4D653AB3B7D /* StateClassifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -939,8 +951,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A1B2C3D41F001A00A1B0001 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBVoiceOver.h"; sourceTree = "<group>"; };
+		A1B2C3D41F001A00A1B0002 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBVoiceOver.m"; sourceTree = "<group>"; };
+		A1B2C3D41F001A00A1B0003 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBVoiceOverTests.m; sourceTree = "<group>"; };
+		018042CBB5D8D61BC4A53034 /* templates */ = {isa = PBXFileReference; lastKnownFileType = text; name = templates; path = ../../templates; sourceTree = SOURCE_ROOT; };
 		0E0413372DF1E15100AF007C /* XCUIElement+FBMinMax.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBMinMax.m"; sourceTree = "<group>"; };
 		0E04133A2DF1E15900AF007C /* XCUIElement+FBMinMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBMinMax.h"; sourceTree = "<group>"; };
+		111744BC8A16B1D7D8C1FACD /* Safety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Safety.swift; path = ../TowerBot/Core/Safety.swift; sourceTree = SOURCE_ROOT; };
 		1357E295233D05240054BDB8 /* XCUIHitPointResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCUIHitPointResult.h; sourceTree = "<group>"; };
 		13815F6D2328D20400CDAB61 /* FBActiveAppDetectionPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBActiveAppDetectionPoint.h; sourceTree = "<group>"; };
 		13815F6E2328D20400CDAB61 /* FBActiveAppDetectionPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBActiveAppDetectionPoint.m; sourceTree = "<group>"; };
@@ -956,6 +973,7 @@
 		13DE7A5A287CA444003243C6 /* FBXCElementSnapshotWrapper+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FBXCElementSnapshotWrapper+Helpers.m"; sourceTree = "<group>"; };
 		13FFF2F0287DBEE600E561E4 /* XCElementSnapshotDouble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCElementSnapshotDouble.h; sourceTree = "<group>"; };
 		13FFF2F1287DBEE600E561E4 /* XCElementSnapshotDouble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCElementSnapshotDouble.m; sourceTree = "<group>"; };
+		1A9E4BE7959E4B440E0E807E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		1BA7DD8C206D694B007C7C26 /* XCTElementSetTransformer-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCTElementSetTransformer-Protocol.h"; sourceTree = "<group>"; };
 		315A14FF2518CB8700A3A064 /* TouchableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchableView.h; sourceTree = "<group>"; };
 		315A15002518CB8700A3A064 /* TouchableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchableView.m; sourceTree = "<group>"; };
@@ -964,6 +982,8 @@
 		315A15082518D6F400A3A064 /* TouchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
 		315A15092518D6F400A3A064 /* TouchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 		44757A831D42CE8300ECF35E /* XCUIDeviceRotationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCUIDeviceRotationTests.m; sourceTree = "<group>"; };
+		45C74A4E8C2C195FEDE0100D /* TowerBotRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TowerBotRunner.swift; path = ../TowerBot/Runner/TowerBotRunner.swift; sourceTree = SOURCE_ROOT; };
+		4B314BB9B27D8EF38C6976E7 /* BotLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BotLoop.swift; path = ../TowerBot/Core/BotLoop.swift; sourceTree = SOURCE_ROOT; };
 		631B523421F6174300625362 /* FBImageProcessorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBImageProcessorTests.m; sourceTree = "<group>"; };
 		633E904A220DEE7F007CADF9 /* XCUIApplicationProcessDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationProcessDelay.h; sourceTree = "<group>"; };
 		6385F4A5220A40760095BBDB /* XCUIApplicationProcessDelay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCUIApplicationProcessDelay.m; sourceTree = "<group>"; };
@@ -1130,10 +1150,9 @@
 		71F5BE33252E5B2200EE9EBA /* FBElementSwipingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBElementSwipingTests.m; sourceTree = "<group>"; };
 		71F5BE4D252F14EB00EE9EBA /* FBExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBExceptions.h; sourceTree = "<group>"; };
 		71F5BE4E252F14EB00EE9EBA /* FBExceptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBExceptions.m; sourceTree = "<group>"; };
-		A1B2C3D41F001A00A1B0001 /* XCUIDevice+FBVoiceOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBVoiceOver.h"; sourceTree = "<group>"; };
-		A1B2C3D41F001A00A1B0002 /* XCUIDevice+FBVoiceOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBVoiceOver.m"; sourceTree = "<group>"; };
-		A1B2C3D41F001A00A1B0003 /* FBVoiceOverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBVoiceOverTests.m; sourceTree = "<group>"; };
+		85B54CBDB400E79E845A8FA0 /* Config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Config.json; path = ../TowerBot/Resources/Config.json; sourceTree = SOURCE_ROOT; };
 		A1B2C3D4E5F600000000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WebDriverAgentRunner/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		A32B4F1D866C1961E0D9AD60 /* CVBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CVBridge.mm; path = ../TowerBot/CV/CVBridge.mm; sourceTree = SOURCE_ROOT; };
 		AABBCCDDEEFF001122334455 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		AABBCCDDEEFF001122334456 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		AD42DD2A1CF121E600806E5D /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -1152,11 +1171,15 @@
 		ADDA07221D6BB2BF001700AC /* FBScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBScrollViewController.h; sourceTree = "<group>"; };
 		ADDA07231D6BB2BF001700AC /* FBScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBScrollViewController.m; sourceTree = "<group>"; };
 		ADEF63AE1D09DEBE0070A7E3 /* FBRuntimeUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRuntimeUtilsTests.m; sourceTree = "<group>"; };
+		B308426C9A606D7BAB3732AD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B316351B2DDF0CF5007D9317 /* FBAccessibilityTraits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAccessibilityTraits.m; sourceTree = "<group>"; };
 		B316351E2DDF0D0B007D9317 /* FBAccessibilityTraits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAccessibilityTraits.h; sourceTree = "<group>"; };
+		BCA34485813328771ACC153F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../vendor/opencv2.framework; sourceTree = SOURCE_ROOT; };
 		C8FB547322D3949C00B69954 /* LSApplicationWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationWorkspace.h; sourceTree = "<group>"; };
 		C8FB547722D4C1FC00B69954 /* FBUnattachedAppLauncher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBUnattachedAppLauncher.h; sourceTree = "<group>"; };
 		C8FB547822D4C1FC00B69954 /* FBUnattachedAppLauncher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBUnattachedAppLauncher.m; sourceTree = "<group>"; };
+		D7E34333B40FD676957C31A7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DB984E29B22DD4D653AB3B7D /* StateClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StateClassifier.swift; path = ../TowerBot/Core/StateClassifier.swift; sourceTree = SOURCE_ROOT; };
 		E444DC59249131880060D7EB /* HTTPErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPErrorResponse.h; path = WebDriverAgentLib/Vendor/CocoaHTTPServer/Responses/HTTPErrorResponse.h; sourceTree = SOURCE_ROOT; };
 		E444DC5B249131880060D7EB /* HTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPDataResponse.m; path = WebDriverAgentLib/Vendor/CocoaHTTPServer/Responses/HTTPDataResponse.m; sourceTree = SOURCE_ROOT; };
 		E444DC60249131890060D7EB /* HTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPDataResponse.h; path = WebDriverAgentLib/Vendor/CocoaHTTPServer/Responses/HTTPDataResponse.h; sourceTree = SOURCE_ROOT; };
@@ -1428,6 +1451,7 @@
 		EEE9B4701CD02B88009D2030 /* FBRunLoopSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRunLoopSpinner.h; sourceTree = "<group>"; };
 		EEE9B4711CD02B88009D2030 /* FBRunLoopSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRunLoopSpinner.m; sourceTree = "<group>"; };
 		EEF9882A1C486603005CA669 /* WebDriverAgentRunner.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebDriverAgentRunner.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49D4F57810944710ABBCD62 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Config.swift; path = ../TowerBot/Core/Config.swift; sourceTree = SOURCE_ROOT; };
 		F59CD6D22EF16E5E00F91287 /* XCUIElement+FBCustomActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBCustomActions.h"; sourceTree = "<group>"; };
 		F59CD6D32EF16E5E00F91287 /* XCUIElement+FBCustomActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBCustomActions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1496,13 +1520,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE9B75D11CF7956C00275851 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EE9B75E91CF7956C00275851 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1518,12 +1535,32 @@
 			files = (
 				EE158B5A1CBD462100A3E3F0 /* WebDriverAgentLib.framework in Frameworks */,
 				716C9346224D540C004B8542 /* libxml2.tbd in Frameworks */,
+				81FE465F8C5641E828703A1C /* opencv2.framework in Frameworks */,
+				5EA74CC784A9563681B97653 /* Accelerate.framework in Frameworks */,
+				9A654894A83C8ABE930AD335 /* libz.tbd in Frameworks */,
+				0B094DDCAF631ECA08FC6A4A /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01AC4B1AB01C36529FE35A4A /* TowerBot */ = {
+			isa = PBXGroup;
+			children = (
+				F49D4F57810944710ABBCD62 /* Config.swift */,
+				DB984E29B22DD4D653AB3B7D /* StateClassifier.swift */,
+				111744BC8A16B1D7D8C1FACD /* Safety.swift */,
+				4B314BB9B27D8EF38C6976E7 /* BotLoop.swift */,
+				45C74A4E8C2C195FEDE0100D /* TowerBotRunner.swift */,
+				85B54CBDB400E79E845A8FA0 /* Config.json */,
+				018042CBB5D8D61BC4A53034 /* templates */,
+				BCA34485813328771ACC153F /* opencv2.framework */,
+				A32B4F1D866C1961E0D9AD60 /* CVBridge.mm */,
+			);
+			name = TowerBot;
+			sourceTree = "<group>";
+		};
 		498495C81BB2E6FA009CC848 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1632,6 +1669,10 @@
 				91F9DAEA1B99DBC2001349B2 /* Products */,
 				B6E83A410C45944B036B6B0F /* Frameworks */,
 				AD42DD291CF121E600806E5D /* Modules */,
+				01AC4B1AB01C36529FE35A4A /* TowerBot */,
+				1A9E4BE7959E4B440E0E807E /* Accelerate.framework */,
+				B308426C9A606D7BAB3732AD /* libz.tbd */,
+				D7E34333B40FD676957C31A7 /* libc++.tbd */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -1806,8 +1847,8 @@
 				EEDFE1201D9C06F800E6FFE5 /* XCUIDevice+FBHealthCheck.m */,
 				AD6C26961CF2481700F8B5FF /* XCUIDevice+FBHelpers.h */,
 				AD6C26971CF2481700F8B5FF /* XCUIDevice+FBHelpers.m */,
-				A1B2C3D41F001A00A1B0001 /* XCUIDevice+FBVoiceOver.h */,
-				A1B2C3D41F001A00A1B0002 /* XCUIDevice+FBVoiceOver.m */,
+				A1B2C3D41F001A00A1B0001,
+				A1B2C3D41F001A00A1B0002,
 				EEE3763D1D59F81400ED88DD /* XCUIDevice+FBRotation.h */,
 				EEE3763E1D59F81400ED88DD /* XCUIDevice+FBRotation.m */,
 				EE9AB7451CAEDF0C008C271F /* XCUIElement+FBAccessibility.h */,
@@ -2080,7 +2121,7 @@
 				AD76723F1D6B826F00610457 /* FBTypingTest.m */,
 				714CA3C61DC23186000F12C9 /* FBXPathIntegrationTests.m */,
 				71BB58DD2B9631B700CB9BFE /* FBVideoRecordingTests.m */,
-				A1B2C3D41F001A00A1B0003 /* FBVoiceOverTests.m */,
+				A1B2C3D41F001A00A1B0003,
 				71241D7D1FAF084E00B9559F /* FBW3CTouchActionsIntegrationTests.m */,
 				71241D7F1FAF087500B9559F /* FBW3CMultiTouchActionsIntegrationTests.m */,
 				7136C0F8243A182400921C76 /* FBW3CTypeActionsTests.m */,
@@ -2524,7 +2565,7 @@
 				71822777258744CE00661B83 /* DDNumber.h in Headers */,
 				641EE6C82240C5CA00173FCB /* XCTKVOExpectation.h in Headers */,
 				641EE6C92240C5CA00173FCB /* XCUIDevice+FBRotation.h in Headers */,
-				A1B2C3D41F001A00A1B0004 /* XCUIDevice+FBVoiceOver.h in Headers */,
+				A1B2C3D41F001A00A1B0004,
 				641EE6CA2240C5CA00173FCB /* XCEventGenerator.h in Headers */,
 				719DCF162601EAFB000E765F /* FBNotificationsHelper.h in Headers */,
 				71414ED52670A1EE003A8C5D /* LRUCache.h in Headers */,
@@ -2772,7 +2813,7 @@
 				EE35AD591E3B77D600A02D78 /* XCTKVOExpectation.h in Headers */,
 				13DE7A43287C2A8D003243C6 /* FBXCAccessibilityElement.h in Headers */,
 				EEE376431D59F81400ED88DD /* XCUIDevice+FBRotation.h in Headers */,
-				A1B2C3D41F001A00A1B0006 /* XCUIDevice+FBVoiceOver.h in Headers */,
+				A1B2C3D41F001A00A1B0006,
 				EE35AD2E1E3B77D600A02D78 /* XCEventGenerator.h in Headers */,
 				EE9B76A61CF7A43900275851 /* FBConfiguration.h in Headers */,
 				EE35AD571E3B77D600A02D78 /* XCTestSuiteRun.h in Headers */,
@@ -2830,7 +2871,6 @@
 			buildPhases = (
 				641EE2D62240BBE300173FCB /* Sources */,
 				641EE2D72240BBE300173FCB /* Frameworks */,
-				641EE2D82240BBE300173FCB /* Resources */,
 				641EE3472240C1EF00173FCB /* Copy frameworks */,
 			);
 			buildRules = (
@@ -2850,7 +2890,6 @@
 				641EE5D62240C5CA00173FCB /* Sources */,
 				641EE6282240C5CA00173FCB /* Frameworks */,
 				641EE6302240C5CA00173FCB /* Headers */,
-				641EE6EF2240C5CA00173FCB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2867,7 +2906,6 @@
 			buildPhases = (
 				64B264F5228C50E0002A5025 /* Sources */,
 				64B264F6228C50E0002A5025 /* Frameworks */,
-				64B264F7228C50E0002A5025 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2886,7 +2924,6 @@
 				EE158A941CBD452B00A3E3F0 /* Sources */,
 				EE158A951CBD452B00A3E3F0 /* Frameworks */,
 				EE158A961CBD452B00A3E3F0 /* Headers */,
-				EE158A971CBD452B00A3E3F0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2903,7 +2940,6 @@
 			buildPhases = (
 				EE2202081ECC612200A29571 /* Sources */,
 				EE2202151ECC612200A29571 /* Frameworks */,
-				EE2202181ECC612200A29571 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2922,7 +2958,6 @@
 			buildPhases = (
 				EE5095E21EBCC9090028E2FE /* Sources */,
 				EE5095F71EBCC9090028E2FE /* Frameworks */,
-				EE5095FA1EBCC9090028E2FE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2941,7 +2976,6 @@
 			buildPhases = (
 				EE836BFE1C0F118600D87246 /* Sources */,
 				EE836BFF1C0F118600D87246 /* Frameworks */,
-				EE836C001C0F118600D87246 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2958,7 +2992,6 @@
 			buildConfigurationList = EE9B75F71CF7956C00275851 /* Build configuration list for PBXNativeTarget "IntegrationApp" */;
 			buildPhases = (
 				EE9B75D01CF7956C00275851 /* Sources */,
-				EE9B75D11CF7956C00275851 /* Frameworks */,
 				EE9B75D21CF7956C00275851 /* Resources */,
 			);
 			buildRules = (
@@ -2976,7 +3009,6 @@
 			buildPhases = (
 				EE9B75E81CF7956C00275851 /* Sources */,
 				EE9B75E91CF7956C00275851 /* Frameworks */,
-				EE9B75EA1CF7956C00275851 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3046,7 +3078,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91F9DAE41B99DBC2001349B2 /* Build configuration list for PBXProject "WebDriverAgent" */;
+			buildConfigurationList = 91F9DAE41B99DBC2001349B2 /* Build configuration list for PBXProject "WebDriverAgentLib" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -3074,55 +3106,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		641EE2D82240BBE300173FCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		641EE6EF2240C5CA00173FCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64B264F7228C50E0002A5025 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE158A971CBD452B00A3E3F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE2202181ECC612200A29571 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE5095FA1EBCC9090028E2FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE836C001C0F118600D87246 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EE9B75D21CF7956C00275851 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3131,18 +3114,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE9B75EA1CF7956C00275851 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EEF988281C486603005CA669 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1B2C3D4E5F600000000001B /* Assets.xcassets in Resources */,
+				5DAB4063938191E4F762CA8A /* Config.json in Resources */,
+				FE0F4C6D96A72E048EAE47FE /* templates in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3219,7 +3197,7 @@
 				641EE5F22240C5CA00173FCB /* NSPredicate+FBFormat.m in Sources */,
 				718F49CA23087AD30045FE8B /* FBProtocolHelpers.m in Sources */,
 				641EE5F42240C5CA00173FCB /* XCUIDevice+FBRotation.m in Sources */,
-				A1B2C3D41F001A00A1B0005 /* XCUIDevice+FBVoiceOver.m in Sources */,
+				A1B2C3D41F001A00A1B0005,
 				13815F722328D20400CDAB61 /* FBActiveAppDetectionPoint.m in Sources */,
 				71D475C52538F5A8008D9401 /* XCUIApplicationProcess+FBQuiescence.m in Sources */,
 				641EE5F52240C5CA00173FCB /* XCUIElement+FBUID.m in Sources */,
@@ -3347,7 +3325,7 @@
 				71A224E61DE2F56600844D55 /* NSPredicate+FBFormat.m in Sources */,
 				E444DC85249131B10060D7EB /* DDNumber.m in Sources */,
 				EEE376441D59F81400ED88DD /* XCUIDevice+FBRotation.m in Sources */,
-				A1B2C3D41F001A00A1B0007 /* XCUIDevice+FBVoiceOver.m in Sources */,
+				A1B2C3D41F001A00A1B0007,
 				13815F712328D20400CDAB61 /* FBActiveAppDetectionPoint.m in Sources */,
 				71B49EC81ED1A58100D51AD6 /* XCUIElement+FBUID.m in Sources */,
 				EE158AE21CBD456F00A3E3F0 /* FBRouteRequest.m in Sources */,
@@ -3437,7 +3415,7 @@
 			files = (
 				71241D801FAF087500B9559F /* FBW3CMultiTouchActionsIntegrationTests.m in Sources */,
 				71BB58DE2B9631B700CB9BFE /* FBVideoRecordingTests.m in Sources */,
-				A1B2C3D41F001A00A1B0008 /* FBVoiceOverTests.m in Sources */,
+				A1B2C3D41F001A00A1B0008,
 				71241D7E1FAF084E00B9559F /* FBW3CTouchActionsIntegrationTests.m in Sources */,
 				63FD950221F9D06100A3E356 /* FBImageProcessorTests.m in Sources */,
 				719CD8FF2126C90200C7D0C2 /* FBAutoAlertsHandlerTests.m in Sources */,
@@ -3548,6 +3526,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9AB8011CAEE048008C271F /* UITestingUITests.m in Sources */,
+				05F044DB8F64CD3445C4F330 /* Config.swift in Sources */,
+				FF134A548F1B918372AC18A2 /* StateClassifier.swift in Sources */,
+				5A02419486AB3651EDE096C6 /* Safety.swift in Sources */,
+				0DFA49DFBAB3C0801DD5C960 /* BotLoop.swift in Sources */,
+				9B4E4A61805EE6FD5BFDE6FE /* TowerBotRunner.swift in Sources */,
+				3CD0406A94E1DCBB5FE6DBFA /* CVBridge.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4386,11 +4370,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEE5CABF1C80361500CBBDD9 /* IOSSettings.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../vendor,
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4407,6 +4397,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.WebDriverAgentRunner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = ../TowerBot/CV/CVBridge.h;
+				SWIFT_VERSION = 5.0;
 				USES_XCTRUNNER = YES;
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -4440,10 +4433,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEE5CABF1C80361500CBBDD9 /* IOSSettings.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../vendor,
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4461,6 +4460,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.WebDriverAgentRunner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = ../TowerBot/CV/CVBridge.h;
+				SWIFT_VERSION = 5.0;
 				USES_XCTRUNNER = YES;
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -4520,7 +4522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91F9DAE41B99DBC2001349B2 /* Build configuration list for PBXProject "WebDriverAgent" */ = {
+		91F9DAE41B99DBC2001349B2 /* Build configuration list for PBXProject "WebDriverAgentLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91F9DB0A1B99DBC2001349B2 /* Debug */,
