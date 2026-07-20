@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012644C38419F54C4764976F /* UpgradeLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419472BA412920AEEF743F9 /* UpgradeLogic.swift */; };
 		05F044DB8F64CD3445C4F330 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D4F57810944710ABBCD62 /* Config.swift */; };
 		0B094DDCAF631ECA08FC6A4A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E34333B40FD676957C31A7 /* libc++.tbd */; };
 		0DFA49DFBAB3C0801DD5C960 /* BotLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B314BB9B27D8EF38C6976E7 /* BotLoop.swift */; };
@@ -45,6 +46,7 @@
 		315A15072518CC2800A3A064 /* TouchSpotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315A15062518CC2800A3A064 /* TouchSpotView.m */; };
 		315A150A2518D6F400A3A064 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315A15092518D6F400A3A064 /* TouchViewController.m */; };
 		3CD0406A94E1DCBB5FE6DBFA /* CVBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = A32B4F1D866C1961E0D9AD60 /* CVBridge.mm */; settings = {COMPILER_FLAGS = "-w"; }; };
+		4A7C4EABB2AFE575192BF7D2 /* NumberParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0347228879D7C9DDF0E724 /* NumberParse.swift */; };
 		5A02419486AB3651EDE096C6 /* Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111744BC8A16B1D7D8C1FACD /* Safety.swift */; };
 		5DAB4063938191E4F762CA8A /* Config.json in Resources */ = {isa = PBXBuildFile; fileRef = 85B54CBDB400E79E845A8FA0 /* Config.json */; };
 		5EA74CC784A9563681B97653 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9E4BE7959E4B440E0E807E /* Accelerate.framework */; };
@@ -576,6 +578,7 @@
 		C8FB547422D3949C00B69954 /* LSApplicationWorkspace.h in Headers */ = {isa = PBXBuildFile; fileRef = C8FB547322D3949C00B69954 /* LSApplicationWorkspace.h */; };
 		C8FB547922D4C1FC00B69954 /* FBUnattachedAppLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = C8FB547722D4C1FC00B69954 /* FBUnattachedAppLauncher.h */; };
 		C8FB547A22D4C1FC00B69954 /* FBUnattachedAppLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FB547822D4C1FC00B69954 /* FBUnattachedAppLauncher.m */; };
+		D7114D479F6FBB051DA603FF /* StatusOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A4400B972F5BDB4C1D06F /* StatusOCR.swift */; };
 		E444DC65249131890060D7EB /* HTTPErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E444DC59249131880060D7EB /* HTTPErrorResponse.h */; };
 		E444DC67249131890060D7EB /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E444DC5B249131880060D7EB /* HTTPDataResponse.m */; };
 		E444DC6C249131890060D7EB /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E444DC60249131890060D7EB /* HTTPDataResponse.h */; };
@@ -974,6 +977,7 @@
 		13FFF2F1287DBEE600E561E4 /* XCElementSnapshotDouble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCElementSnapshotDouble.m; sourceTree = "<group>"; };
 		1A9E4BE7959E4B440E0E807E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		1BA7DD8C206D694B007C7C26 /* XCTElementSetTransformer-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCTElementSetTransformer-Protocol.h"; sourceTree = "<group>"; };
+		2E1A4400B972F5BDB4C1D06F /* StatusOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusOCR.swift; path = ../TowerBot/Core/StatusOCR.swift; sourceTree = SOURCE_ROOT; };
 		315A14FF2518CB8700A3A064 /* TouchableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchableView.h; sourceTree = "<group>"; };
 		315A15002518CB8700A3A064 /* TouchableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchableView.m; sourceTree = "<group>"; };
 		315A15052518CC2800A3A064 /* TouchSpotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchSpotView.h; sourceTree = "<group>"; };
@@ -1149,6 +1153,7 @@
 		71F5BE33252E5B2200EE9EBA /* FBElementSwipingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBElementSwipingTests.m; sourceTree = "<group>"; };
 		71F5BE4D252F14EB00EE9EBA /* FBExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBExceptions.h; sourceTree = "<group>"; };
 		71F5BE4E252F14EB00EE9EBA /* FBExceptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBExceptions.m; sourceTree = "<group>"; };
+		7A0347228879D7C9DDF0E724 /* NumberParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NumberParse.swift; path = ../TowerBot/Core/NumberParse.swift; sourceTree = SOURCE_ROOT; };
 		85B54CBDB400E79E845A8FA0 /* Config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Config.json; path = ../TowerBot/Resources/Config.json; sourceTree = SOURCE_ROOT; };
 		A1B2C3D41F001A00A1B0001 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBVoiceOver.h"; sourceTree = "<group>"; };
 		A1B2C3D41F001A00A1B0002 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBVoiceOver.m"; sourceTree = "<group>"; };
@@ -1180,6 +1185,7 @@
 		C8FB547322D3949C00B69954 /* LSApplicationWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationWorkspace.h; sourceTree = "<group>"; };
 		C8FB547722D4C1FC00B69954 /* FBUnattachedAppLauncher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBUnattachedAppLauncher.h; sourceTree = "<group>"; };
 		C8FB547822D4C1FC00B69954 /* FBUnattachedAppLauncher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBUnattachedAppLauncher.m; sourceTree = "<group>"; };
+		D419472BA412920AEEF743F9 /* UpgradeLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UpgradeLogic.swift; path = ../TowerBot/Core/UpgradeLogic.swift; sourceTree = SOURCE_ROOT; };
 		D7E34333B40FD676957C31A7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		DB984E29B22DD4D653AB3B7D /* StateClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StateClassifier.swift; path = ../TowerBot/Core/StateClassifier.swift; sourceTree = SOURCE_ROOT; };
 		E444DC59249131880060D7EB /* HTTPErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPErrorResponse.h; path = WebDriverAgentLib/Vendor/CocoaHTTPServer/Responses/HTTPErrorResponse.h; sourceTree = SOURCE_ROOT; };
@@ -1560,6 +1566,9 @@
 				BCA34485813328771ACC153F /* opencv2.framework */,
 				A32B4F1D866C1961E0D9AD60 /* CVBridge.mm */,
 				066649EFB318B0B3379A7A33 /* Notifier.swift */,
+				7A0347228879D7C9DDF0E724 /* NumberParse.swift */,
+				2E1A4400B972F5BDB4C1D06F /* StatusOCR.swift */,
+				D419472BA412920AEEF743F9 /* UpgradeLogic.swift */,
 			);
 			name = TowerBot;
 			sourceTree = "<group>";
@@ -3554,6 +3563,9 @@
 				9B4E4A61805EE6FD5BFDE6FE /* TowerBotRunner.swift in Sources */,
 				3CD0406A94E1DCBB5FE6DBFA /* CVBridge.mm in Sources */,
 				6D454EE1BB2957B642E5EE13 /* Notifier.swift in Sources */,
+				4A7C4EABB2AFE575192BF7D2 /* NumberParse.swift in Sources */,
+				D7114D479F6FBB051DA603FF /* StatusOCR.swift in Sources */,
+				012644C38419F54C4764976F /* UpgradeLogic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
